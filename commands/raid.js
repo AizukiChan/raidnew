@@ -1,5 +1,5 @@
+require('dotenv').config();
 const { Client, Intents, MessageActionRow, MessageSelectMenu, MessageEmbed } = require('discord.js');
-const { token } = require('../secrets.json');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
 client.once('ready', () => {
