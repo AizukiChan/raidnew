@@ -88,4 +88,4 @@ client.on('messageCreate', async message => {
     }
 });
 
-client.login(process.env.DISCORD_TOKEN); // Login bot menggunakan token dari environment variable
+client.login(process.env.TOKEN); // Login bot menggunakan token dari environment variable
